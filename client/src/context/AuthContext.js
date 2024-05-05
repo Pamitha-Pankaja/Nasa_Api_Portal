@@ -50,7 +50,7 @@ export const AuthContextProvider = ({children}) => {
     //login request
     const loginUser = async (userData) => {
         try {
-            const res =  await fetch(`https://nasa-api-portal-1.onrender.com/login`, {
+            const res =  await fetch(`http://localhost:8000/api/login`, {
                 method: "POST",
                 headers: {
                     "Content-Type" : "application/json",
@@ -76,7 +76,7 @@ export const AuthContextProvider = ({children}) => {
     //register request
     const registerUser = async (userData) => {
         try {
-          const res = await fetch(`https://nasa-api-portal-1.onrender.com/register`, {
+          const res = await fetch(`http://localhost:8000/api/register`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
