@@ -76,7 +76,8 @@ export const useStyles = makeStyles((theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    color:'white'
+    color:'white',
+    overflow:'hidden',
   },
   leftContainer: {
     display: 'flex',

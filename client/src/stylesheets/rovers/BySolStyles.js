@@ -12,7 +12,8 @@ export const useStyles = makeStyles((theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    color:'white'
+    color:'white',
+    overflow:'hidden',
   },
   title: {
     marginBottom: theme.spacing(2),

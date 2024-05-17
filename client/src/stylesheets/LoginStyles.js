@@ -10,6 +10,7 @@ export const useStyles = makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    overflow:'hidden',
   },
   transparentBoxStyle: {
     backgroundColor: 'rgba(255, 255, 255, 0.5)',
